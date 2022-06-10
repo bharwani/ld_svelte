@@ -14,7 +14,8 @@
     color = testClient.variation('AmeetTestFlag2', false)
 
     testClient.on("change:AmeetTestFlag2", (newValue, oldValue) => {
-      color = newValue
+      color = newValue;
+      document.body.style.p = newValue;
     })
   }
   
