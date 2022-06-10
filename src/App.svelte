@@ -15,7 +15,7 @@
 
     testClient.on("change:AmeetTestFlag2", (newValue, oldValue) => {
       color = newValue;
-      document.body.style.p = newValue;
+      document.body.style.backgroundColor = newValue;
     })
   }
   
