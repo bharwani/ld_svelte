@@ -4,7 +4,6 @@
 
   // Add SDK key here
   let ldClientArray = new LDClientArray("XXXXXXXXXX", {"anonymous":true})
-  
   let testClient
   let color = "#FFFFFF"
 
