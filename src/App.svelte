@@ -18,7 +18,6 @@
       document.body.style.p = newValue;
     })
   }
-  
 </script>
 
 <main>
